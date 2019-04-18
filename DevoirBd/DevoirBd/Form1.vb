@@ -9,16 +9,19 @@ Public Class Form1
     Private f4 As New Employer
     Private f5 As New Rechercher
     Private f6 As New PartEntreprise
-    Dim m_dataset As DataSet
-    Public objConn_orc1 As OracleConnection
+    Public cmd
+    Public conn
 
     Private Sub Fermeture_Click(sender As Object, e As EventArgs) Handles Fermeture.Click
         Me.Close()
         Console.WriteLine("OwO")
+        conn.dispose()
         End
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Dim StrConnection As String = "Data Source=SMI1002_16/76wbwa63@//132.209.11.3:1521/coursbd;"
+        Console.WriteLine("OwO")
+        conn = New Oracle.ManagedDataAccess.Client.OracleConnection(StrConnection)
     End Sub
 
     Private Sub CreerClient_Click(sender As Object, e As EventArgs) Handles CreerClient.Click
