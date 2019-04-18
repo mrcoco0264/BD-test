@@ -57,13 +57,13 @@ Partial Class Entreprise
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(18, 92)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(43, 13)
+        Me.Label3.Size = New System.Drawing.Size(107, 13)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "NbrPart"
+        Me.Label3.Text = "Nombre de part Total"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(121, 36)
+        Me.TextBox1.Location = New System.Drawing.Point(131, 36)
         Me.TextBox1.MaxLength = 500
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(202, 20)
@@ -71,7 +71,7 @@ Partial Class Entreprise
         '
         'MaskedTextBox1
         '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(121, 63)
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(131, 63)
         Me.MaskedTextBox1.Mask = "9999999999,99"
         Me.MaskedTextBox1.Name = "MaskedTextBox1"
         Me.MaskedTextBox1.Size = New System.Drawing.Size(82, 20)
@@ -80,7 +80,7 @@ Partial Class Entreprise
         '
         'MaskedTextBox2
         '
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(121, 89)
+        Me.MaskedTextBox2.Location = New System.Drawing.Point(131, 89)
         Me.MaskedTextBox2.Mask = "99999"
         Me.MaskedTextBox2.Name = "MaskedTextBox2"
         Me.MaskedTextBox2.Size = New System.Drawing.Size(82, 20)
@@ -107,7 +107,7 @@ Partial Class Entreprise
         '
         'MaskedTextBox3
         '
-        Me.MaskedTextBox3.Location = New System.Drawing.Point(121, 12)
+        Me.MaskedTextBox3.Location = New System.Drawing.Point(131, 12)
         Me.MaskedTextBox3.Mask = "99999"
         Me.MaskedTextBox3.Name = "MaskedTextBox3"
         Me.MaskedTextBox3.Size = New System.Drawing.Size(82, 20)
