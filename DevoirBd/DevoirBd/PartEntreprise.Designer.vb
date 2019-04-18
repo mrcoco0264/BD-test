@@ -26,18 +26,10 @@ Partial Class PartEntreprise
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Send = New System.Windows.Forms.Button()
         Me.Fermer = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-<<<<<<< HEAD
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox3 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox4 = New System.Windows.Forms.MaskedTextBox()
-=======
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox3 = New System.Windows.Forms.MaskedTextBox()
->>>>>>> master
+        Me.IdClient = New System.Windows.Forms.MaskedTextBox()
+        Me.idEntreprise = New System.Windows.Forms.MaskedTextBox()
+        Me.NbrPart = New System.Windows.Forms.MaskedTextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -56,19 +48,11 @@ Partial Class PartEntreprise
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(62, 13)
         Me.Label2.TabIndex = 2
-<<<<<<< HEAD
-        Me.Label2.Text = "Label2"
-        '
-        'Send
-        '
-        Me.Send.Location = New System.Drawing.Point(360, 129)
-=======
         Me.Label2.Text = "idEntreprise"
         '
         'Send
         '
-        Me.Send.Location = New System.Drawing.Point(192, 90)
->>>>>>> master
+        Me.Send.Location = New System.Drawing.Point(109, 90)
         Me.Send.Name = "Send"
         Me.Send.Size = New System.Drawing.Size(75, 23)
         Me.Send.TabIndex = 3
@@ -77,112 +61,60 @@ Partial Class PartEntreprise
         '
         'Fermer
         '
-<<<<<<< HEAD
-        Me.Fermer.Location = New System.Drawing.Point(12, 129)
-=======
         Me.Fermer.Location = New System.Drawing.Point(12, 90)
->>>>>>> master
         Me.Fermer.Name = "Fermer"
         Me.Fermer.Size = New System.Drawing.Size(75, 23)
         Me.Fermer.TabIndex = 4
         Me.Fermer.Text = "Fermer"
         Me.Fermer.UseVisualStyleBackColor = True
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(13, 64)
-        Me.Label3.Name = "Label3"
-<<<<<<< HEAD
-        Me.Label3.Size = New System.Drawing.Size(39, 13)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Label2"
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(13, 92)
+        Me.Label4.Location = New System.Drawing.Point(12, 67)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.Size = New System.Drawing.Size(43, 13)
         Me.Label4.TabIndex = 2
-        Me.Label4.Text = "Label2"
+        Me.Label4.Text = "NbrPart"
         '
-        'MaskedTextBox1
+        'IdClient
         '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(59, 13)
-=======
-        Me.Label3.Size = New System.Drawing.Size(71, 13)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Nombre part :"
+        Me.IdClient.Location = New System.Drawing.Point(84, 13)
+        Me.IdClient.Mask = "99999"
+        Me.IdClient.Name = "IdClient"
+        Me.IdClient.Size = New System.Drawing.Size(100, 20)
+        Me.IdClient.TabIndex = 5
+        Me.IdClient.ValidatingType = GetType(Integer)
         '
-        'MaskedTextBox1
+        'idEntreprise
         '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(90, 12)
->>>>>>> master
-        Me.MaskedTextBox1.Mask = "99999"
-        Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.MaskedTextBox1.TabIndex = 5
-        Me.MaskedTextBox1.ValidatingType = GetType(Integer)
+        Me.idEntreprise.Location = New System.Drawing.Point(83, 38)
+        Me.idEntreprise.Mask = "99999"
+        Me.idEntreprise.Name = "idEntreprise"
+        Me.idEntreprise.Size = New System.Drawing.Size(100, 20)
+        Me.idEntreprise.TabIndex = 5
+        Me.idEntreprise.ValidatingType = GetType(Integer)
         '
-        'MaskedTextBox2
+        'NbrPart
         '
-<<<<<<< HEAD
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(58, 38)
-=======
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(90, 35)
->>>>>>> master
-        Me.MaskedTextBox2.Mask = "99999"
-        Me.MaskedTextBox2.Name = "MaskedTextBox2"
-        Me.MaskedTextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.MaskedTextBox2.TabIndex = 5
-        Me.MaskedTextBox2.ValidatingType = GetType(Integer)
-        '
-        'MaskedTextBox3
-        '
-<<<<<<< HEAD
-        Me.MaskedTextBox3.Location = New System.Drawing.Point(58, 64)
-        Me.MaskedTextBox3.Mask = "999999.99"
-        Me.MaskedTextBox3.Name = "MaskedTextBox3"
-        Me.MaskedTextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.MaskedTextBox3.TabIndex = 5
-        '
-        'MaskedTextBox4
-        '
-        Me.MaskedTextBox4.Location = New System.Drawing.Point(58, 89)
-        Me.MaskedTextBox4.Mask = "99999.99"
-        Me.MaskedTextBox4.Name = "MaskedTextBox4"
-        Me.MaskedTextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.MaskedTextBox4.TabIndex = 5
-=======
-        Me.MaskedTextBox3.Location = New System.Drawing.Point(90, 61)
-        Me.MaskedTextBox3.Mask = "99999"
-        Me.MaskedTextBox3.Name = "MaskedTextBox3"
-        Me.MaskedTextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.MaskedTextBox3.TabIndex = 5
-        Me.MaskedTextBox3.ValidatingType = GetType(Integer)
->>>>>>> master
+        Me.NbrPart.Location = New System.Drawing.Point(83, 64)
+        Me.NbrPart.Mask = "99999"
+        Me.NbrPart.Name = "NbrPart"
+        Me.NbrPart.Size = New System.Drawing.Size(100, 20)
+        Me.NbrPart.TabIndex = 5
+        Me.NbrPart.ValidatingType = GetType(Integer)
         '
         'PartEntreprise
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-<<<<<<< HEAD
-        Me.ClientSize = New System.Drawing.Size(447, 161)
-        Me.Controls.Add(Me.MaskedTextBox4)
-=======
-        Me.ClientSize = New System.Drawing.Size(282, 119)
->>>>>>> master
-        Me.Controls.Add(Me.MaskedTextBox3)
-        Me.Controls.Add(Me.MaskedTextBox2)
-        Me.Controls.Add(Me.MaskedTextBox1)
+        Me.ClientSize = New System.Drawing.Size(213, 122)
+        Me.Controls.Add(Me.NbrPart)
+        Me.Controls.Add(Me.idEntreprise)
+        Me.Controls.Add(Me.IdClient)
         Me.Controls.Add(Me.Fermer)
         Me.Controls.Add(Me.Send)
-<<<<<<< HEAD
         Me.Controls.Add(Me.Label4)
-=======
->>>>>>> master
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "PartEntreprise"
@@ -195,13 +127,11 @@ Partial Class PartEntreprise
     Friend WithEvents Label2 As Label
     Friend WithEvents Send As Button
     Friend WithEvents Fermer As Button
-    Friend WithEvents Label3 As Label
 <<<<<<< HEAD
     Friend WithEvents Label4 As Label
-    Friend WithEvents MaskedTextBox1 As MaskedTextBox
-    Friend WithEvents MaskedTextBox2 As MaskedTextBox
-    Friend WithEvents MaskedTextBox3 As MaskedTextBox
-    Friend WithEvents MaskedTextBox4 As MaskedTextBox
+    Friend WithEvents IdClient As MaskedTextBox
+    Friend WithEvents idEntreprise As MaskedTextBox
+    Friend WithEvents NbrPart As MaskedTextBox
 =======
     Friend WithEvents MaskedTextBox1 As MaskedTextBox
     Friend WithEvents MaskedTextBox2 As MaskedTextBox
