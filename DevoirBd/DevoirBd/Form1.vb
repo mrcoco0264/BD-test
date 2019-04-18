@@ -19,7 +19,7 @@ Public Class Form1
         End
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim StrConnection As String = "Data Source=SMI1002_16/76wbwa63@//132.209.11.3:1521/coursbd;"
+        Dim StrConnection As String = "Data Source=SMI1002_59/33axee46@//132.209.11.3:1521/coursbd;"
         Console.WriteLine("OwO")
         conn = New Oracle.ManagedDataAccess.Client.OracleConnection(StrConnection)
     End Sub
