@@ -127,14 +127,14 @@ Partial Class PartEntreprise
     Friend WithEvents Label2 As Label
     Friend WithEvents Send As Button
     Friend WithEvents Fermer As Button
-<<<<<<< HEAD
+
     Friend WithEvents Label4 As Label
     Friend WithEvents IdClient As MaskedTextBox
     Friend WithEvents idEntreprise As MaskedTextBox
     Friend WithEvents NbrPart As MaskedTextBox
-=======
+
     Friend WithEvents MaskedTextBox1 As MaskedTextBox
     Friend WithEvents MaskedTextBox2 As MaskedTextBox
     Friend WithEvents MaskedTextBox3 As MaskedTextBox
->>>>>>> master
+
 End Class
