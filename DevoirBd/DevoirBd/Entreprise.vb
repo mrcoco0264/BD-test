@@ -4,7 +4,7 @@ Public Class Entreprise
         Me.Close()
     End Sub
 
-    Private Sub Entreprise_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Send_Click(sender As Object, e As EventArgs) Handles Send.Click
         Dim Querry As String = "Insert into Entreprise values(" + idEntreprise.Text + ")"
 
         Form1.cmd = New OracleCommand(Querry)
